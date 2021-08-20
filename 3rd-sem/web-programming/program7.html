@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Table</title>
+	  <style>
+
+
+table,th,tr
+{
+
+
+
+border: 1px solid green;
+border-collapse: collapse;}
+th {
+  text-align: left;
+}
+#t1 {
+  width: 100%;    
+  background-color: blue;
+}
+
+#t1 tr:nth-child(even) {
+  background-color: yellow;
+}
+#t1 tr:nth-child(odd) {
+  background-color: blue;
+}
+#t1 th {
+  color: white;
+  background-color:olive;
+}
+
+
+</style>
+
+	  </style>
+   </head>
+	
+   <body bgcolor="lime" text="red">
+      <table id="t1" border = "3" width = "100%" cellspacing="5" cellpadding="5"  >
+         <caption>EMPLOYEE DATA</caption>
+		 <thead>
+            <tr> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>EMPLOYEE DETAILS</tr>
+            </tr>
+         </thead>
+         
+         <tfoot>
+            <tr>
+               <td><b>Note:employee table data</td>
+            </tr>
+         </tfoot>
+         
+         <tbody>
+            <th>ENO</th>
+			<th>ENAME</th>
+             <th>ESALARY</th>
+			 <th>dateof birth</th>
+			 <th>designation</th>
+			 <th>emobileno</th>
+			 <th>address</th>
+
+			<tr>
+               
+			   <td>125</td>
+               <td>Sai</td>
+               <td>50000</td>
+               <td>01-05-1987</td>
+			   <td>software engineer</td>
+			   <td>1234567890</td>
+			   <td>sklm 5320021</td>
+               </tr>
+
+			   <tr>
+               
+			   <td>126</td>
+               <td>Raja</td>
+               <td>60000</td>
+               <td>04-06-1988</td>
+			   <td>data scientist</td>
+			   <td>9876543211</td>
+			   <td>vskp 5320021</td>
+               </tr>
+			   <tr>
+               
+			   <td>127</td>
+               <td>Mahi</td>
+               <td>70000</td>
+               <td>12-07-1986</td>
+			   <td>web developer</td>
+			   <td>8976543211</td>
+			   <td>vgz 535282</td>
+               </tr>
+			   <tr>
+               
+			   <td>128</td>
+               <td>Siva</td>
+               <td>80000</td>
+               <td>22-10-1987</td>
+			   <td>software developer</td>
+			   <td>7986544311</td>
+			   <td>guntur 522108,a.p</td>
+               </tr>
+         </tbody>
+         
+      </table>
+   </body>
+	
+</html>
