@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(250, 178, 70);
+    height: 100vh;
+}
+.b{
+    background-color: cadetblue;
+    margin: 10px;
+    height: 30vh;
+    padding: 50px;
+    font-size: 3em;
+}
+#c{
+    background-color: #7fff00;
+    margin: 10px;
+    height: 30vh;
+    padding: 50px;
+    font-size: 2em;
+}
