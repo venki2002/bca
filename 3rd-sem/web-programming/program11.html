@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Program 11</title>
+    </head>
+<body>
+    <label>number 1</label>
+    <input type="number" id="number1" placeholder="enter a number"> <br>
+    <label>number 2</label>
+    <input type="number" id="number2" placeholder="enter a number"><br>
+    <button type="button"  onclick="cal()">submit</button><br><br>
+     <h5 id="cal1">Sum =</h5>
+     <h5 id="cal2">Sub =</h5>
+     <h5 id="cal3">Mul =</h5>
+     <h5 id="cal4">Div =</h5>
+     <h5 id="cal5">Mod =</h5>
+
+<script>
+function cal(){
+    var a =  document.getElementById("number1").value;
+    var b =  document.getElementById("number2").value;
+    var sum = parseInt(a) + parseInt(b);
+    var sub = parseInt(a) - parseInt(b);
+    var mul = parseInt(a) * parseInt(b);
+    var div = parseInt(a) / parseInt(b);
+    var mod=  parseInt(a) % parseInt(b);
+    document.getElementById("cal1").innerHTML="Sum ="+sum;
+    document.getElementById("cal2").innerHTML="Sub ="+sub;
+    document.getElementById("cal3").innerHTML="Mul ="+mul;
+    document.getElementById("cal4").innerHTML="Div ="+div;
+   document.getElementById("cal5").innerHTML="Mod ="+mod;
+  }
+</script>
+</body>
+</html>
